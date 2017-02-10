@@ -1,0 +1,120 @@
+﻿.gameIcon
+{
+    height: 200px;
+    width: 200px;
+}
+
+.gameTdArea
+{
+   padding: 20px;
+}
+.gameTable
+{
+    margin: 0 auto;
+}
+.gameIconName
+{
+    text-align: center;
+}
+#headImg
+{
+    margin: 7%;
+}
+#dropDownHolder
+{
+    margin-left: 2%;
+}
+.dropDown {
+    padding: 10px;
+    margin-left: 142px;
+}
+
+
+
+
+body 
+{
+    background-color: black;
+    color: #FFFFFF;
+}
+
+#banner
+{
+    background-image: url("../images/banner.png");
+    background: repeat-x;
+}
+#loginDiv, .loginDiv
+{
+    position: absolute;
+    right: 0;
+    width:inherit;
+    z-index: 100;
+}
+
+#goRight, .goRight
+{
+    float: right;
+    margin-right: 25px;
+}
+
+input
+{
+    color: black;
+}
+.loginElement 
+{
+    display: inline;
+}
+
+nav ul 
+{
+    display: -webkit-inline-box;
+}
+#mainContentDiv
+{
+    margin: 0 145px;
+    width: 80%;
+}
+#mainForm p, p
+{
+    font-size: 17px;
+    
+}
+.page-header 
+{
+    text-align: center;
+}
+/***************************************************************************************888*/
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#grad1 {
+    height: 200px;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, black,#404040,black); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(right, red, yellow); /* For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient(right, red, yellow); /* For Firefox 3.6 to 15 
+    background: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) */
+}
+
+h1, h2, h3,p{
+    color : #FFFFFF;
+
+}
